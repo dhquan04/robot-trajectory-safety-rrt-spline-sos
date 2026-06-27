@@ -156,10 +156,6 @@ python Spline.py
 # 3. Chứng minh an toàn từng đoạn bằng SOS/SDP
 python SOS.py
 
-# 4. (Tùy chọn) So sánh khả năng phát hiện vi phạm: sampling vs SOS
-python sosanh.py
-```
-
 Mỗi lần chạy `main.py` sẽ tạo một thư mục mới `outputs/run_YYYYMMDD_HHMMSS/`, chứa toàn bộ CSV trung gian và ảnh kết quả — giúp tái lập (reproducibility) từng lần thử nghiệm, kể cả khi bản đồ được sinh ngẫu nhiên (seed dùng thực tế luôn được lưu lại trong `metadata.csv`).
 
 ---
